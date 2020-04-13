@@ -46,6 +46,7 @@ class Options extends React.Component {
 
     constructor(props) {
         super(props);
+        // method binding
         this.handleRemoveAll = this.handleRemoveAll.bind(this);
     }
 

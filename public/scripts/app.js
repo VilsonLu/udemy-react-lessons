@@ -109,6 +109,7 @@ var Options = function (_React$Component4) {
     function Options(props) {
         _classCallCheck(this, Options);
 
+        // method binding
         var _this4 = _possibleConstructorReturn(this, (Options.__proto__ || Object.getPrototypeOf(Options)).call(this, props));
 
         _this4.handleRemoveAll = _this4.handleRemoveAll.bind(_this4);
