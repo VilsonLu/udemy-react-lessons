@@ -39,6 +39,20 @@ class IndecisionApp extends React.Component {
     // we don't to change the state value);
   }
 
+  // lifecycle methods
+  // can only be used in class-based components
+  componentDidMount() {
+    console.log('componentDidMount!');
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    console.log('Component did update');
+  }
+
+  componentWillUnmount() {
+    console.log('component will unmount');
+  }
+
   render() {
     const subtitle = "Put your life in the hands of a computer.";
     return (

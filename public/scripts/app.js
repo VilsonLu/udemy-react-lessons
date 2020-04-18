@@ -67,6 +67,25 @@ var IndecisionApp = function (_React$Component) {
       });
       // we don't to change the state value);
     }
+
+    // lifecycle methods
+    // can only be used in class-based components
+
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      console.log('componentDidMount!');
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps, prevState) {
+      console.log('Component did update');
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      console.log('component will unmount');
+    }
   }, {
     key: "render",
     value: function render() {
