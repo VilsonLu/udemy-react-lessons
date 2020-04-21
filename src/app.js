@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const template = React.createElement('p', {}, '1234');
+const template = <p>Hello World Again</p>
 
 ReactDOM.render(template, document.getElementById('app'));
